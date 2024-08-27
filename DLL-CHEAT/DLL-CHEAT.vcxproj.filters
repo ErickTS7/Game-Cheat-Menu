@@ -1,0 +1,156 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Arquivos de Origem">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Arquivos de Cabeçalho">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Arquivos de Recurso">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Arquivos de Origem\Hooks">
+      <UniqueIdentifier>{bb1217ed-4686-41d4-8344-57cfea294b5a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Arquivos de Origem\Hooks\Kiero">
+      <UniqueIdentifier>{500a3687-c4d7-46ee-9875-b7add8ebfcde}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Arquivos de Origem\Hooks\Hooks_Core">
+      <UniqueIdentifier>{863cba84-c5c7-46ad-a2d3-6783b23edc82}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Arquivos de Origem\Hooks\Hooks_Main">
+      <UniqueIdentifier>{10cc9cc4-9c1a-477c-905e-15fee579f1c4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Arquivos de Origem\Hooks\Minhook">
+      <UniqueIdentifier>{979acaf5-13cf-4bfc-9106-a0c5d4ea39fa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Arquivos de Origem\Hooks\Minhook\include">
+      <UniqueIdentifier>{ca36bb18-b648-4902-bfb1-fcc11e735209}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Arquivos de Origem\Hooks\Minhook\src">
+      <UniqueIdentifier>{8219cef8-2120-419f-b063-d2888fa0aa84}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Arquivos de Origem\Hooks\Minhook\src\hde">
+      <UniqueIdentifier>{0338fb03-3c18-4bc0-8c0f-4a65200c5e5c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Arquivos de Origem\ImGui">
+      <UniqueIdentifier>{b687420d-6b12-41c8-80b2-0d75e650201e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Arquivos de Origem\Menu">
+      <UniqueIdentifier>{6f7d5930-bf90-452a-9306-b9621cc5b638}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="dllmain.cpp">
+      <Filter>Arquivos de Origem</Filter>
+    </ClCompile>
+    <ClCompile Include="Hooks\Minhook\src\hde\hde32.c">
+      <Filter>Arquivos de Origem\Hooks\Minhook\src\hde</Filter>
+    </ClCompile>
+    <ClCompile Include="Hooks\Minhook\src\hde\hde64.c">
+      <Filter>Arquivos de Origem\Hooks\Minhook\src\hde</Filter>
+    </ClCompile>
+    <ClCompile Include="Hooks\Minhook\src\buffer.c">
+      <Filter>Arquivos de Origem\Hooks\Minhook\src</Filter>
+    </ClCompile>
+    <ClCompile Include="Hooks\Minhook\src\hook.c">
+      <Filter>Arquivos de Origem\Hooks\Minhook\src</Filter>
+    </ClCompile>
+    <ClCompile Include="Hooks\Minhook\src\trampoline.c">
+      <Filter>Arquivos de Origem\Hooks\Minhook\src</Filter>
+    </ClCompile>
+    <ClCompile Include="Hooks\Kiero\kiero.cpp">
+      <Filter>Arquivos de Origem\Hooks\Kiero</Filter>
+    </ClCompile>
+    <ClCompile Include="Hooks\Hooks_Core\Hooks_Present.cpp">
+      <Filter>Arquivos de Origem\Hooks\Hooks_Core</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGui\imgui.cpp">
+      <Filter>Arquivos de Origem\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGui\imgui_demo.cpp">
+      <Filter>Arquivos de Origem\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGui\imgui_draw.cpp">
+      <Filter>Arquivos de Origem\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGui\imgui_impl_dx11.cpp">
+      <Filter>Arquivos de Origem\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGui\imgui_impl_win32.cpp">
+      <Filter>Arquivos de Origem\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGui\imgui_tables.cpp">
+      <Filter>Arquivos de Origem\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGui\imgui_widgets.cpp">
+      <Filter>Arquivos de Origem\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="Menu\Menu.cpp">
+      <Filter>Arquivos de Origem\Menu</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Hooks\Minhook\src\hde\hde32.h">
+      <Filter>Arquivos de Origem\Hooks\Minhook\src\hde</Filter>
+    </ClInclude>
+    <ClInclude Include="Hooks\Minhook\src\hde\hde64.h">
+      <Filter>Arquivos de Origem\Hooks\Minhook\src\hde</Filter>
+    </ClInclude>
+    <ClInclude Include="Hooks\Minhook\src\hde\pstdint.h">
+      <Filter>Arquivos de Origem\Hooks\Minhook\src\hde</Filter>
+    </ClInclude>
+    <ClInclude Include="Hooks\Minhook\src\hde\table32.h">
+      <Filter>Arquivos de Origem\Hooks\Minhook\src\hde</Filter>
+    </ClInclude>
+    <ClInclude Include="Hooks\Minhook\src\hde\table64.h">
+      <Filter>Arquivos de Origem\Hooks\Minhook\src\hde</Filter>
+    </ClInclude>
+    <ClInclude Include="Hooks\Minhook\src\buffer.h">
+      <Filter>Arquivos de Origem\Hooks\Minhook\src</Filter>
+    </ClInclude>
+    <ClInclude Include="Hooks\Minhook\src\trampoline.h">
+      <Filter>Arquivos de Origem\Hooks\Minhook\src</Filter>
+    </ClInclude>
+    <ClInclude Include="Hooks\Minhook\include\MinHook.h">
+      <Filter>Arquivos de Origem\Hooks\Minhook\include</Filter>
+    </ClInclude>
+    <ClInclude Include="Hooks\Kiero\kiero.h">
+      <Filter>Arquivos de Origem\Hooks\Kiero</Filter>
+    </ClInclude>
+    <ClInclude Include="Hooks\Hooks_Core\Hooks_Present.h">
+      <Filter>Arquivos de Origem\Hooks\Hooks_Core</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imconfig.h">
+      <Filter>Arquivos de Origem\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imgui.h">
+      <Filter>Arquivos de Origem\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imgui_impl_dx11.h">
+      <Filter>Arquivos de Origem\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imgui_impl_win32.h">
+      <Filter>Arquivos de Origem\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imgui_internal.h">
+      <Filter>Arquivos de Origem\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imstb_rectpack.h">
+      <Filter>Arquivos de Origem\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imstb_textedit.h">
+      <Filter>Arquivos de Origem\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imstb_truetype.h">
+      <Filter>Arquivos de Origem\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="Menu\Menu.h">
+      <Filter>Arquivos de Origem\Menu</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
